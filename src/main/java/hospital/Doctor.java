@@ -24,4 +24,12 @@ public class Doctor extends HospitalEmployee implements MedicalDuties {
         return 90000;
     }
 
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "speciality='" + speciality + '\'' +
+                ", employeeNumber='" + employeeNumber + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

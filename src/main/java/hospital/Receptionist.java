@@ -14,4 +14,13 @@ public class Receptionist extends Administrator{
     public int calculatePay() {
         return 50000;
     }
+
+    @Override
+    public String toString() {
+        return "Receptionist{" +
+                "isOnPhone=" + isOnPhone +
+                ", employeeNumber='" + employeeNumber + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
